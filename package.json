@@ -22,5 +22,9 @@
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.1"
-  }
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+    }
+  
 }
